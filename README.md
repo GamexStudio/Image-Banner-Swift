@@ -3,7 +3,7 @@
 This is a banner with similar style to the App Store. It has auto-slide to left every 5 seconds and manual-slide to both sides.
 It can be used quickly only by passing an array of images.
 
-Lenguage: Swift 2
+Lenguage: Swift 2 and Swift 3
 
 Author: Alan Roldan
 
@@ -28,6 +28,7 @@ The files for use this template. you must move these files within your project.
 
 
 ## How to use?
+(example swift3)
 
 Create a variable of type BannerView:
 ``` swift
@@ -48,15 +49,15 @@ for i in 0 ... imageName.count-1
 Get screen size width:
 ```swift
 let widthScreen = CGFloat()
-widthScreen = UIScreen.mainScreen().bounds.width
+widthScreen = UIScreen.main.bounds.width
 ```
 Instantiate class BannerView:
 ```swift
-baner.createBanner(arrayImages, widthScreen: widthScreen)
+baner.createBanner(imagesArray: arrayImages, widthScreen: widthScreen)
 ```
 You can also recharge the view items:
 ```swift
-baner.refreshBanner(arrayImages)
+baner.refreshBanner(imagesArray: arrayImages)
 ```
 
 
