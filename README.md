@@ -3,7 +3,7 @@
 This is a banner with similar style to the App Store. It has auto-slide to left every 5 seconds and manual-slide to both sides.
 It can be used quickly only by passing an array of images.
 
-Lenguage: Swift 2 and Swift 3
+Lenguage: Swift 3
 
 Author: Alan Roldan
 
@@ -15,15 +15,6 @@ Author: Alan Roldan
 
 ###Landscape
 <img src="GIF2_ASCustomBannerView.gif" width="400">
-
-
-## Files:
-
-1. Example_ASCustomBannerView: 
-This is a example project.
-
-2. ASCustomBannerView for Swift2: 
-The files for use this template. you must move these files within your project.
 
 
 

@@ -24,8 +24,9 @@ class BannerView: UIView
     private var images = [UIImageView]()
     private var timer = Timer()
     
-    func createBanner(imagesArray:[UIImage], widthScreen:CGFloat)
+    func createBanner(imagesArray:[UIImage])
     {
+        let widthScreen:CGFloat = UIScreen.main.bounds.width
         if widthScreen > 415
         {
             self.aspectWidth = 415
