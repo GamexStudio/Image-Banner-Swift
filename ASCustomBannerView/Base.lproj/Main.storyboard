@@ -34,14 +34,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OxU-je-OeL">
+                                <rect key="frame" x="0.0" y="324" width="375" height="30"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                <state key="normal" title="go to git repository">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToGit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UWx-Re-eCN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="WJi-0j-ra9" secondAttribute="trailing" id="2p0-r3-dH1"/>
                             <constraint firstItem="lot-VM-12q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8cJ-VL-mAP"/>
                             <constraint firstItem="lot-VM-12q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="BdS-Q0-VG2"/>
+                            <constraint firstItem="OxU-je-OeL" firstAttribute="top" secondItem="WJi-0j-ra9" secondAttribute="bottom" constant="-5" id="FQA-vS-jaL"/>
                             <constraint firstItem="WJi-0j-ra9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="II4-UM-Tp6"/>
                             <constraint firstAttribute="trailing" secondItem="lot-VM-12q" secondAttribute="trailing" id="LxB-0c-F1J"/>
+                            <constraint firstAttribute="trailing" secondItem="OxU-je-OeL" secondAttribute="trailing" id="M3l-Yp-qOn"/>
+                            <constraint firstItem="OxU-je-OeL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="m3W-Xu-QLx"/>
                             <constraint firstItem="WJi-0j-ra9" firstAttribute="top" secondItem="lot-VM-12q" secondAttribute="bottom" constant="50" id="qcM-4i-ddy"/>
                         </constraints>
                     </view>
