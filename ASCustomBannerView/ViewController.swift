@@ -61,6 +61,11 @@ class ViewController: UIViewController {
         bannerView.refreshBanner(imagesArray: arrayImages)
     }
     
+    @IBAction func goToGit(_ sender: Any) {
+        let url = NSURL(string: "https://github.com/aroldanm/ASCustomBannerView")!
+        UIApplication.shared.openURL(url as URL)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
